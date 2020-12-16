@@ -1,14 +1,1 @@
-# Setup
-title:               Online RFR DT Generation
-tagline:             'Senior Research Project'
-description:         'A display website for presenting senior research project to satisfy CS 396 course requirements. Made by <a href="https://twitter.com/HenriPrudhomme" target="_blank">@HenriPrudhomme</a>.'
-
-# About/contact
-author:
-  name:              Henri Prudhomme
-  url:               https://twitter.com/HenriPrudhomme
-
-plugins:
-  - jekyll-remote-theme
-  
 remote_theme: poole/lanyon
