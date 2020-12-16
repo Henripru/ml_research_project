@@ -7,16 +7,16 @@ A team at Stryker is working on replicating the work of Dr. David Joseph Tan on 
 
 As a part of the temporal tracking process, random forest models compute a 6-DoF movement matrix to estimate a target object's transformation and rotation from frame to frame. Model training data is obtained in a simulated environment by generating depth frames from random transformations and rotations on the 3D CAD data of a target object. 
 
-With the stated implementation, a target object's CAD data is necessary to obtain training data for the random forest models. The problem that I will be addressing is a problem that Dr. Tan states himself: “When tracking an object in real scenes, there are situations when its 3D model is not at hand, which makes model-based tracking impossible.” 
+With the stated implementation, a target object's CAD data is necessary to obtain training data for the random forest models. The problem that is being addressed is a problem that Dr. Tan states himself: “When tracking an object in real scenes, there are situations when its 3D model is not at hand, which makes model-based tracking impossible.” 
 
 The IMT department at Stryker is concerned with developing and preparing technologies which don’t yet have a home. In the case of the 3D tracking software, one of their goals is 
 “to develop a machine vision toolbox that provides a generic set of capabilities"
-While the obtaining a 3D model is not necessarily difficult, there is still an opportunity for investigation into methods which do not require a 3D model. Hence, I am researching a proposed method for using online learning to dynamically train and construct random forest models.
+While the obtaining a 3D model is not necessarily difficult, there is still an opportunity for investigation into methods which do not require a 3D model. Hence, a proposed method for using online learning to dynamically train and construct random forest models is being researched.
 
 ## Brief Description of Solution Being Provided
-To investigate general case tracking, I will be researching and implementing the proposed solution by Dr. Tan to “From one frame to the next, incrementally add new trees to the forest from different object viewpoints”. This forms the basis for the online learning method. 
+To investigate general case tracking, Dr. Tan's proposal to “From one frame to the next, incrementally add new trees to the forest from different object viewpoints” is being researched. The proposed online learning method works as follows: 
 
-> Note: The process written out in this proposal is based on my understanding of the process at the time of writing; the process may be implemented or discovered to work differently at a later date.
+> Note: The process written out in this proposal is based on current understanding of the process at the time of writing; the process may be implemented or discovered to work differently at a later date.
 
 The tracking algorithm has to have a ground truth from which it starts. This ground truth is a set of depth data within a 3D box which is obtained from the first RGB-D frame. The centroid of the object is assumed to be at the center of the bounding box, and the initial object transformation is the translation from the camera center to the centroid. The goal being that we don’t define the object’s initial location at the camera, but rather at the center of a geodesic sphere where it is actually located. Using this initial information, the depth data is used to generate and train n trees per parameter for the starting camera view. The method of training n trees per parameter is only used at the initial frame to establish extra stability before new random forests can be learned. After the initial frame, the process of computing transformations and tracking follows the original process described with exception that upon each new iteration, only one tree per parameter is learned. The geodesic sphere is used is used to avoid re-learning trees from similar viewpoints by finding the closest untrained vertex of the sphere from the camera location in the object coordinate system.
 
