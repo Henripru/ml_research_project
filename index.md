@@ -31,7 +31,7 @@ Logistical Advisor: Professor VanderLinden
 Expert Advisor(s): Stryker IMT
 
 # Code
-N/A
+N/A (Proprietary)
 
 # Report
 ## Review of Relevant Design Norms
