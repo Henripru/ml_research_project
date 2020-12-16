@@ -39,11 +39,13 @@ This project has the potential to affect human life and health and thus raises q
 
 # Resources
 ### Project 
-Status Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/status_report.pptx)
+Proposal: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/proposal_10_22_20.pdf)
 
-Final Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/final_report.pptx)
+Status Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/december_report.pdf)
 
-Unofficial Paper: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/unofficial_paper.pdf) 
+Final Report: [N/A](https://github.com/henripru/online_random_forest_decision_tree_generation/final_report.pdf)
+
+Unofficial Paper: [N/A](https://github.com/henripru/online_random_forest_decision_tree_generation/unofficial_paper.pdf) 
 
 ### Source
 
