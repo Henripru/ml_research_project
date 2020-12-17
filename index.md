@@ -5,7 +5,7 @@ title: about
 ### Background and Problem
 A team at Stryker is working on replicating the work of Dr. David Joseph Tan on 6-DoF pose estimation and temporal tracking with machine learning for machine vision applications in his PhD Thesis, “Learn to Track: From Images to 3D Data”, and one of his more recent publications, “Looking Beyond the Simple Scenarios: Combining Learners and Optimizers in 3D Temporal Tracking”. 
 
-As a part of the temporal tracking process, random forest models compute a 6-DoF movement matrix to estimate a target object's transformation and rotation from frame to frame. Model training data is obtained in a simulated environment by generating depth frames from random transformations and rotations on the 3D CAD data of a target object. 
+As a part of the temporal tracking process, random forest models compute a 6-DoF transformation matrix to estimate a target object's movement from frame to frame. Model training data is obtained in a simulated environment by generating depth frames from random transformations and rotations on the 3D CAD data of a target object. 
 
 With the stated implementation, a target object's CAD data is necessary to obtain training data for the random forest models. The problem is, as Dr. Tan states, “When tracking an object in real scenes, there are situations when its 3D model is not at hand, which makes model-based tracking impossible.” 
 
