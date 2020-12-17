@@ -9,8 +9,6 @@ As a part of the temporal tracking process, random forest models compute a 6-DoF
 
 With the stated implementation, a target object's CAD data is necessary to obtain training data for the random forest models. The problem is, as Dr. Tan states, “When tracking an object in real scenes, there are situations when its 3D model is not at hand, which makes model-based tracking impossible.” 
 
-The IMT department at Stryker is concerned with developing and preparing technologies which don’t yet have a home. In the case of the 3D tracking software, one of their goals is 
-“to develop a machine vision toolbox that provides a generic set of capabilities"
 While the obtaining a 3D model is not necessarily difficult, there is still an opportunity for investigation into methods which do not require a 3D model. Hence, a proposed method for using online learning to dynamically train and construct random forest models is being researched.
 
 ### Brief Description of Solution Being Provided
