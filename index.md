@@ -5,6 +5,9 @@ title: about
 # Final Presentation
 [![Watch the video](https://img.youtube.com/vi/6X2wsth0SHo/0.jpg)](https://www.youtube.com/watch?v=6X2wsth0SHo)
 
+# Final Report
+[link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/proposal_10_22_20.pdf)
+
 # Vision
 ### Background and Problem
 A team at Stryker is working on replicating the work of Dr. David Joseph Tan on 6-DoF pose estimation and temporal tracking with machine learning for machine vision applications in his PhD Thesis, “Learn to Track: From Images to 3D Data”, and one of his more recent publications, “Looking Beyond the Simple Scenarios: Combining Learners and Optimizers in 3D Temporal Tracking”. 
@@ -45,9 +48,7 @@ Proposal: [link](https://github.com/henripru/online_random_forest_decision_tree_
 
 Status Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/december_report.pdf)
 
-Final Report: [N/A](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/final_report.pdf)
-
-Unofficial Paper: [N/A](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/unofficial_paper.pdf) 
+Final Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/proposal_10_22_20.pdf)
 
 ### Source
 
