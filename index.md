@@ -6,7 +6,7 @@ title: about
 [![Watch the video](https://img.youtube.com/vi/6X2wsth0SHo/0.jpg)](https://www.youtube.com/watch?v=6X2wsth0SHo)
 
 # Final Report
-[link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/proposal_10_22_20.pdf)
+[link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/CS398_Final_Report.pdf)
 
 # Vision
 ### Background and Problem
@@ -48,7 +48,7 @@ Proposal: [link](https://github.com/henripru/online_random_forest_decision_tree_
 
 Status Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/december_report.pdf)
 
-Final Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/proposal_10_22_20.pdf)
+Final Report: [link](https://github.com/henripru/online_random_forest_decision_tree_generation/blob/gh-pages/CS398_Final_Report.pdf)
 
 ### Source
 
